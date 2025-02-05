@@ -21,7 +21,7 @@ jobs:
 
     - name: Instalar dependencias
       run: |
-        composer install --no-dev
+        composer install
 
     - name: Ejecutamos tests
       run: vendor/bin/phpunit --testdox tests
